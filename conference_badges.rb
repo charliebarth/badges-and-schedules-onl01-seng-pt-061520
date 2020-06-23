@@ -30,8 +30,8 @@ end
 
 def printer(attendees)
   array_ruler = ["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
-  puts batch_badge_creator(array_ruler)
-  puts assign_rooms(array_ruler)
+  puts batch_badge_creator(attendees)
+  puts assign_rooms(attendees)
   
 end
-printer("Why")
+printer("Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz")
