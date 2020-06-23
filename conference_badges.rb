@@ -34,4 +34,4 @@ def printer(attendees)
   puts assign_rooms(attendees)
   
 end
-printer("Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz")
+printer(["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"])
