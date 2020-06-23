@@ -29,7 +29,6 @@ end
 
 
 def printer(attendees)
-  array_ruler = ["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
   batch_badge_creator(attendees).each do |attendee_badge|
     puts attendee_badge
   end
